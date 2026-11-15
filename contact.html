@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Contact Gulabi Cup café in C-Scheme, Jaipur.">
+  <title>Contact & Visit | Gulabi Cup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/dark-mode.css">
+</head>
+
+<body class="dark-mode-page min-w-[320px] bg-[#f7eee5] font-sans text-[#272322] antialiased  "><a
+    class="absolute left-4 top-[-5rem] z-[100] rounded-xl bg-[#7c3041] px-4 py-3 text-white focus:top-4"
+    href="#main">Skip to content</a>
+  <header class="sticky top-0 z-50 border-b border-[#7c3041]/10 bg-[#f7eee5]/90 backdrop-blur-xl ">
+    <nav class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-4 lg:px-8"
+      aria-label="Main navigation"><a href="index.html" class="flex items-center gap-3"><span
+          class="grid h-[2.65rem] w-[2.65rem] place-items-center rounded-full bg-[#7c3041] font-serif text-2xl font-bold text-white">G</span><span><span
+            class="block font-serif text-xl font-bold leading-none">gulabi cup</span><span
+            class="text-[10px] uppercase tracking-[.25em] text-[#7c3041] ">Jaipur, India</span></span></a>
+      </label>
+      <div id="primary-menu" class="flex w-full flex-wrap items-center gap-3 md:w-auto md:gap-8"><a
+          class="text-sm font-semibold text-[#514445] transition-colors hover:text-[#b94f65]  "
+          href="index.html">Home</a><a
+          class="text-sm font-semibold text-[#514445] transition-colors hover:text-[#b94f65]  "
+          href="menu.html">Menu</a><a
+          class="text-sm font-semibold text-[#514445] transition-colors hover:text-[#b94f65]  "
+          href="gallery.html">Gallery</a><a
+          class="text-sm font-semibold text-[#514445] transition-colors hover:text-[#b94f65]   text-[#b94f65]"
+          href="contact.html" aria-current="page">Contact</a><a href="#visit"
+          class="rounded-full bg-[#7c3041] px-5 py-3 text-sm font-semibold text-white">Find your table ↗</a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="px-5 py-20 text-center">
+      <p class="text-xs font-bold uppercase tracking-[.22em] text-[#a34e5d] ">We'd love to see you</p>
+      <h1
+        class="mx-auto mt-3 max-w-4xl font-serif text-5xl font-semibold leading-tight tracking-tight sm:text-6xl lg:text-7xl">
+        Say hello. <em class="text-[#a34e5d] ">Stay awhile.</em></h1>
+      <p class="mt-5 max-w-2xl text-lg leading-8 text-[#272322]/65 ">Questions, table requests or just want to say hi?
+        Drop us a note and we'll get back to you.</p>
+    </section>
+    <section class="mx-auto grid max-w-7xl gap-10 px-5 pb-20 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
+      <div class="rounded-[2rem] bg-white p-6 shadow-[0_20px_60px_rgba(65,35,35,.10)]  sm:p-9">
+        <p class="text-xs font-bold uppercase tracking-[.22em] text-[#a34e5d] ">Send us a note</p>
+        <h2 class="mb-7 font-serif text-3xl font-bold">Let's make a plan.</h2>
+        <form id="contact-form" class="space-y-5">
+          <div><label for="name" class="mb-2 block text-sm font-bold">Your name <span
+                aria-hidden="true">*</span></label><input id="name" name="name" type="text" autocomplete="name" required
+              minlength="2"
+              class="w-full rounded-xl border border-[#7c3041]/25 bg-[#fffaf6] px-4 py-3.5 text-[#272322] transition focus:border-[#a34e5d] focus:outline-none focus:ring-4 focus:ring-[#d97782]/20   "
+              placeholder="e.g. Priya Sharma"></div>
+          <div><label for="phone" class="mb-2 block text-sm font-bold">Phone number <span
+                aria-hidden="true">*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"
+              inputmode="tel" pattern="[+]?[0-9\s()-]{10,16}" required
+              class="w-full rounded-xl border border-[#7c3041]/25 bg-[#fffaf6] px-4 py-3.5 text-[#272322] transition focus:border-[#a34e5d] focus:outline-none focus:ring-4 focus:ring-[#d97782]/20   "
+              placeholder="+91 98765 43210"></div>
+          <div><label for="service" class="mb-2 block text-sm font-bold">What can we help with? <span
+                aria-hidden="true">*</span></label><select id="service" name="service" required
+              class="w-full rounded-xl border border-[#7c3041]/25 bg-[#fffaf6] px-4 py-3.5 text-[#272322] transition focus:border-[#a34e5d] focus:outline-none focus:ring-4 focus:ring-[#d97782]/20   ">
+              <option value="">Choose an option</option>
+              <option>Table reservation</option>
+              <option>Menu / dietary question</option>
+              <option>Private event</option>
+              <option>Work or study meet-up</option>
+              <option>Something else</option>
+            </select></div>
+          <div><label for="message" class="mb-2 block text-sm font-bold">Your message <span
+                aria-hidden="true">*</span></label><textarea id="message" name="message" rows="5" required
+              minlength="10"
+              class="w-full rounded-xl border border-[#7c3041]/25 bg-[#fffaf6] px-4 py-3.5 text-[#272322] transition focus:border-[#a34e5d] focus:outline-none focus:ring-4 focus:ring-[#d97782]/20    resize-y"
+              placeholder="Tell us a little about what you have in mind..."></textarea></div>
+          <button type="button" disabled
+            class="w-full cursor-not-allowed rounded-full bg-[#7c3041] px-7 py-4 font-bold text-white opacity-60">Submit</button>
+          <p class="text-sm text-center">Thank You</p>
+        </form>
+      </div>
+      <aside id="visit" class="space-y-6">
+        <div class="rounded-[2rem] bg-[#ead8ce] p-7 ">
+          <p class="text-xs font-bold uppercase tracking-[.22em] text-[#a34e5d] ">Find us</p>
+          <h2 class="font-serif text-3xl font-bold">In the heart of Jaipur.</h2>
+          <address class="mt-5 not-italic leading-8">Gulabi Cup Café<br>12, Example Lane, C-Scheme<br>Jaipur, Rajasthan
+            302001</address><a class="mt-4 inline-flex font-bold text-[#7c3041] underline underline-offset-4 "
+            href="https://www.google.com/maps/search/?api=1&query=C-Scheme%2C+Jaipur%2C+Rajasthan" target="_blank"
+            rel="noopener noreferrer">Open directions ↗</a>
+          <p class="mt-4 text-sm">Call us: <a class="font-bold underline" href="tel:+919876543210">+91 98765 43210</a>
+          </p>
+        </div>
+        <div class="rounded-[2rem] bg-white p-7 shadow-[0_20px_60px_rgba(65,35,35,.10)] ">
+          <h2 class="font-serif text-2xl font-bold">Opening hours</h2>
+          <dl class="mt-5 space-y-3 text-sm">
+            <div class="flex justify-between gap-4">
+              <dt>Monday – Friday</dt>
+              <dd class="font-semibold">8:00 AM – 10:00 PM</dd>
+            </div>
+            <div class="flex justify-between gap-4">
+              <dt>Saturday – Sunday</dt>
+              <dd class="font-semibold">9:00 AM – 11:00 PM</dd>
+            </div>
+          </dl>
+          <p class="mt-4 text-xs text-[#272322]/50 ">Hours are illustrative; confirm before visiting.</p>
+        </div>
+        <div class="overflow-hidden rounded-[2rem] shadow-[0_20px_60px_rgba(65,35,35,.10)]"><iframe class="border-0"
+            title="Map showing the C-Scheme area of Jaipur"
+            src="https://www.google.com/maps?q=C-Scheme%2C%20Jaipur%2C%20Rajasthan&output=embed" width="100%"
+            height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+      </aside>
+    </section>
+  </main>
+  <footer class="bg-[#281f20] text-[#f7eee5]">
+    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-5 px-5 py-10 sm:flex-row lg:px-8"><a
+        href="index.html" class="font-serif text-2xl font-bold">gulabi cup<span class="text-[#d97782]">.</span></a>
+      <p class="text-sm text-white/55">C-Scheme, Jaipur · +91 98765 43210</p>
+      <p class="text-xs text-white/45">© 2026 Gulabi Cup Café</p>
+    </div>
+  </footer>
+</body>
+
+</html>
